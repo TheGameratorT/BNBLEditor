@@ -3,6 +3,7 @@
 # ------------------------------------------------------
 
 QT += widgets
+CONFIG += static
 TEMPLATE = app
 TARGET = BNBLEditor
 CONFIG(debug, release|debug) DESTDIR = ../Debug
