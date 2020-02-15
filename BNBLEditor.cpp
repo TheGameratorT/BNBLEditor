@@ -118,12 +118,12 @@ void BNBLEditor::rectProperties_changed()
 void BNBLEditor::setRectBtnSelected(QPushButton* pb, bool selected)
 {
     if(selected)
-        pb->setStyleSheet("background-color: rgba(0, 192, 255, 128);"
+        pb->setStyleSheet("background-color: rgba(0, 192, 255, 230);"
                           "border-style: outset;"
                           "border-width: 1px;"
                           "border-color: black;");
     else
-        pb->setStyleSheet("background-color: rgba(225, 225, 225, 128);"
+        pb->setStyleSheet("background-color: rgba(225, 225, 225, 230);"
                           "border-style: outset;"
                           "border-width: 1px;"
                           "border-color: black;");
